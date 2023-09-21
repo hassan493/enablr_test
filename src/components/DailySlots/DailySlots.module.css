@@ -1,0 +1,65 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.DateContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.Date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  background: gray;
+  border-radius: 100%;
+  border: 1px solid var(--Borders, #D5DBE0);
+  background: var(--Body-BG, #FBFBFD);
+}
+
+.Day {
+  color: var(--black-black-40, #9BACB7);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.SlotContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.Slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 88px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.SelectedSlot {
+  border: 1px solid var(--green-green-100, #48bb78);
+  background: var(--green-green-100, #48bb78);
+}
+
+.AvailableSlot {
+  border: 1px solid var(--green-green-10, #edf8f1);
+  background: var(--green-green-10, #edf8f1);
+}
+
+.BlankSlot {
+  border: 1px solid var(--green-green-10, #EDF8F1);
+}

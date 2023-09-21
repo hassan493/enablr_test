@@ -21,3 +21,5 @@ function getAlternateMondays(fromDate, toDate) {
 }
 
 console.log(getAlternateMondays('2023-08-01', '2023-08-21'))
+
+export default getAlternateMondays;
