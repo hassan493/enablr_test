@@ -1,0 +1,157 @@
+.avatar {
+    position: relative;
+}
+
+.icon-round-xs {
+    border-radius: 50%;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    padding: 18px 0px 0px 18px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.icon-round-sm {
+    border-radius: 50%;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-round-md {
+    border-radius: 50%;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 12px 9px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.icon-round-lg {
+    border-radius: 50%;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 15px 13px;
+    justify-content:center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.icon-round-xl {
+    border-radius: 50%;
+    display: flex;
+    width: 56px;
+    height: 56px;
+    padding: 18px 15px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+/* Suqare classes */
+
+
+
+.icon-square-xs {
+    border-radius: 4px;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    padding: 6px 1px 6px 2px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.icon-square-sm {
+    border-radius: 4px;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding: 9px 4px 9px 5px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.icon-square-md {
+    border-radius: 6px;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 12px 7px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.icon-square-lg {
+    border-radius: 6px;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 15px 9px 15px 10px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.icon-square-xl {
+    border-radius: 6px;
+    display: flex;
+    width: 56px;
+    height: 56px;
+    padding: 18px 12px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.icon-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bg-light {
+    background-color: #EBEEF3;
+    color: #000;
+}
+
+.bg-dark {
+    background-color: #5C7A9B;
+    color: #fff;
+}
+
+/* notification classes */
+
+.notification {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 2px #FFF;
+    border-radius: 5px;
+}
+
+.notification-green {
+    background-color: #34D399;
+}
+
+.notification-red {
+    background-color: #F87171;
+}
+
+.notification-gray {
+    background-color: #AABBCF;
+}

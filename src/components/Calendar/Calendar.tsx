@@ -21,6 +21,7 @@ import {
   getDate,
   format,
 } from "date-fns";
+import AvatarComponent from "../../tech_interview"
 
 const dayNames = ["Mon", "Tue", "Wed", "Thu", "Fri"];
 
@@ -84,6 +85,7 @@ export const Calendar = ({ available_slots }: Props): JSX.Element => {
       <button className={styles.NavButton} onClick={() => moveWeek("forward")}>
         <FontAwesomeIcon icon={faChevronRight} color="#95A1B5" size="2xl" />
       </button>
+      <AvatarComponent/>
     </div>
   );
 };
